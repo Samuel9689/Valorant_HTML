@@ -74,67 +74,6 @@ Entre os recursos utilizados estão:
 * Tabelas;
 * Elementos de navegação.
 
-## 🧩 Elementos HTML utilizados
-
-O projeto utiliza elementos semânticos para organizar melhor as páginas, como:
-
-```html
-<header>
-<nav>
-<main>
-<section>
-<article>
-<aside>
-<footer>
-```
-
-Também são utilizados elementos multimídia, como:
-
-```html
-<audio controls>
-<video controls>
-<figure>
-<figcaption>
-```
-
-## 🎵 Multimídia
-
-O site possui arquivos locais de áudio e vídeo armazenados nas pastas:
-
-* `audio/`
-* `video/`
-
-Isso permite que os elementos multimídia sejam utilizados diretamente nas páginas HTML.
-
-Exemplo:
-
-```html
-<audio controls>
-    <source src="../audio/audio.mp3" type="audio/mpeg">
-</audio>
-```
-
-E:
-
-```html
-<video controls>
-    <source src="../video/video.mp4" type="video/mp4">
-</video>
-```
-
-## 🖼️ Imagens
-
-As imagens utilizadas pelo projeto estão organizadas na pasta `img/`.
-
-Para apresentar imagens com uma descrição, é possível utilizar:
-
-```html
-<figure>
-    <img src="../img/imagem.jpg" alt="Descrição da imagem">
-    <figcaption>Descrição da imagem</figcaption>
-</figure>
-```
-
 ## 📝 Quiz
 
 O projeto também possui uma área de quiz sobre VALORANT.
